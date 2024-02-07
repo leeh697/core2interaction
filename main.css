@@ -1,31 +1,88 @@
-body{background-color: #f5f5f5;}
+body{background-color: #0F2C59;}
 
-.title1{color: #d74e26;
-	font-family: sans-serif;
+.title1{color: #F8F0E5;
+	font-family: 'Playfair Display', serif;
 	font-weight: ;
-	font-size: 100pt;
-	text-align: left;
-	margin-left: 15pt;
-	margin-top: 15pt;}
+	font-size: 150pt;
+	text-align: center;
+	margin-top: 140pt;}
 
-.name{color: black;
+.name{color: #EADBC8;
 	font-size: 12pt;
 	font-family: sans-serif;
 	text-align: left;
-	margin-top:435pt;
+	margin-top:15pt;
 	margin-left: 20pt;}
 
-.course{color: black;
+.course{color: #EADBC8;
 	font-size: 12pt;
 	font-family: sans-serif;
 	text-align: center;
 	margin-top:-14pt;}
 
-.spring{color: black;
+.spring{color: #EADBC8;
 	font-size: 12pt;
 	font-family: sans-serif;
 	text-align: right;
 	margin-top: -14pt;
 	margin-right: 20pt;}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;}
+
+.studio{
+	color: #0F2C59;
+	margin-top: 205pt;
+	margin-left: 20pt;
+	width: 656px;
+	height: 551px;
+	background-color: #EADBC8;
+	align-items: center;
+}
+
+.text1{
+	margin-top: 10pt;
+	margin-left: 15pt;
+	font-family: 'Playfair', serif;
+	font-size: 24pt;
+}
+
+.text1-1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16pt;
+}
+
+.lab{color: #0F2C59;
+	margin-top: 205pt;
+	margin-left: 20pt;
+	width: 656px;
+	height: 551px;
+	background-color: #EADBC8;
+	align-content: center;
+}
+
+.text2{
+	margin-top: 10pt;
+	margin-left: 15pt;
+	font-family: 'Playfair', serif;
+	font-size: 24pt;
+}
+
+.text2-1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16pt;
+}
+
+
+
+
+
+
+
+
+
 
 
