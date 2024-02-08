@@ -1,0 +1,101 @@
+body{
+  background-color:black;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.title1{
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.5%;
+    margin-top: 21pt;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.hexagon{
+  color: white;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  top: 17pt;
+  left: 20pt;
+  position: fixed;}
+
+.next{
+  color: white;
+  width: 33px;
+  height: 21px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117.5%;
+  margin-top: -13.5pt;
+  margin-left: 1076pt;
+}
+
+.triangle{
+  margin-top: -13pt;
+  margin-left: 18pt;
+  display: flex;
+}
+
+/*------------------------------------------------*/
+.photo1{
+  width: 115%;
+  height: auto;
+  display: flex;
+  margin-left: -40pt;
+  margin-top: 35pt;
+}
+
+.text{
+  color: white;
+  font-family: Lato;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140%;
+/*  align-items: left;*/
+  text-align: left;
+  margin-top: 50pt;
+}
+
+.photo2{
+  width: 115%;
+  height: auto;
+  display: flex;
+  margin-left: -40pt;
+  margin-top: 55pt;
+}
+
+
+/*왼쪽 정렬인데 중간으로 하는 방법*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
