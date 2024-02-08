@@ -1,0 +1,83 @@
+body{background-color:white;
+	height: 1184px;
+	overflow-x: hidden;}
+
+.title{color: black;
+	text-align: center;
+	font-family: "georgiapro", sans-serif;
+	font-size: 150px;
+	font-style: normal;
+	font-weight: 400;
+	margin-top: 175pt;
+	line-height: 117.5%;}
+
+.description{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 117.5%;
+	margin-top: 310pt;
+}
+
+.shape{
+	size: 350%;
+}
+
+.hexagon {
+  width: 300px; /* Adjust the size as needed */
+  height: 173.21px; /* (sqrt(3)/2) * width */
+  background-color: black; /* Blue color, you can change this */
+  position: absolute;
+  animation: moveAround 18s infinite;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: '';
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  position: absolute;
+}
+
+.hexagon:before {
+  top: -86.30px; /* -1/2 * height */
+  border-bottom: 86.60px solid black; /* Blue color, same as hexagon background */
+}
+
+.hexagon:after {
+  bottom: -86.30px; /* -1/2 * height */
+  border-top: 86.60px solid black; /* Blue color, same as hexagon background */
+}
+
+@keyframes moveAround {
+  0% {
+    top: 10%;
+    left: 1%;
+  }
+  20% {
+    top: 72%;
+    left: 10%;
+  }
+  40% {
+  	top: 12%;
+  	left: 85%;
+  }
+  60%{
+  	top: 85%;
+    left: 75%;
+  }
+
+  80% {
+    top: 3%;
+    left: 35%;
+  }
+  100% {
+    top:  10%;
+    left: 1%;
+	}
+}
+
+
