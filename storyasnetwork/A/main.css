@@ -61,13 +61,13 @@ a{
 .text{
   color: white;
   font-family: Lato;
-  font-size: 19px;
+  font-size: 18.5px;
   font-style: normal;
   font-weight: 200;
   line-height: 140%;
 /*  align-items: left;*/
   text-align: left;
-  margin-top: 50pt;
+  margin-top: 53pt;
 }
 
 .photo2{
