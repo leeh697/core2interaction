@@ -1,7 +1,5 @@
 body{
   background-color:black;
-  overflow-y: hidden;
-  text-align: center;
 }
 
 .title1{
@@ -50,12 +48,18 @@ a{
 }
 
 /*------------------------------------------------*/
-.photo1{
-  width: 115%;
-  height: auto;
+
+.light1{
   display: flex;
-  margin-left: -40pt;
-  margin-top: 35pt;
+  margin-top: -40pt;
+  margin-left: 200pt;
+  }
+
+.light1:hover{
+  content: url('light2.svg');
+  transition: transform 0.1s ease;
+  transform: scale(1);
+  margin-left: 194pt;
 }
 
 .text{
@@ -65,17 +69,8 @@ a{
   font-style: normal;
   font-weight: 200;
   line-height: 140%;
-/*  align-items: left;*/
   text-align: left;
-  margin-top: 53pt;
-}
-
-.photo2{
-  width: 115%;
-  height: auto;
-  display: flex;
-  margin-left: -40pt;
-  margin-top: 55pt;
+  margin-top: 105pt;;
 }
 
 
