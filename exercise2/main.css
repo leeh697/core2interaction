@@ -1,0 +1,194 @@
+body{
+  background-color:black;
+/*  overflow: hidden;*/
+}
+
+.title1{
+  color: white;
+  font-size: 95pt;
+  text-align: center;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  margin-top: 10pt;
+}
+
+.first{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 495px;
+}
+
+.first p{
+  color: orangered;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 23pt;
+}
+
+.second{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 495px;
+}
+
+.second p{
+  color: royalblue;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 23pt;
+}
+
+.paragraph{
+  color: white;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 14pt;
+  font-weight: 200;
+}
+
+.paragraph p{
+  color: white;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 14pt;
+}
+.paragraph{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 466px;
+}
+
+.symbol1{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 19pt;
+  margin-top: -400pt;
+  margin-left: 40pt;
+}
+
+.symbol2{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 34pt;
+  margin-top: 60pt;
+  margin-left: 190pt;
+}
+
+.symbol3{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 19pt;
+  margin-top: 130pt;
+  margin-left: 90pt;
+}
+
+.symbol4{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 32pt;
+  margin-top: -396pt;
+  margin-left: 260pt;
+}
+
+.symbol5{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 12pt;
+  margin-top: 420pt;
+  margin-left: 320pt;
+}
+
+.symbol6{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 37pt;
+  margin-top: -600pt;
+  margin-left: 110pt;
+}
+
+
+
+.symbol11{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 19pt;
+  margin-top: -20pt;
+  margin-left: 980pt;
+}
+
+.symbol22{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 34pt;
+  margin-top: 40pt;
+  margin-left: 730pt;
+}
+
+.symbol33{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 19pt;
+  margin-top: 40pt;
+  margin-left: 985pt;
+}
+
+.symbol44{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 32pt;
+  margin-top: 120pt;
+  margin-left: 860pt;
+}
+
+.symbol55{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 12pt;
+  margin-top: 160pt;
+  margin-left: 1080pt;
+}
+
+.symbol66{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal;
+  font-size: 37pt;
+  margin-top: 170pt;
+  margin-left: 700pt;
+}
+
+.symbol111{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal; 
+  font-size: 22pt;
+  margin-top: -150pt;
+  margin-left: 860pt;
+}
+
+.symbol122{
+  color: yellow;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-style: normal; 
+  font-size: 32pt;
+  margin-top: 50pt;
+  margin-left: 220pt;
+/*  margin-top: -150pt;
+  margin-left: 860pt;
+*/}
+
+
+
+
+
