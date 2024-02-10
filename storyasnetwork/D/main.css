@@ -1,0 +1,118 @@
+body{
+  background-color:black;
+/*  overflow: hidden;*/
+}
+
+.title1{
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.5%;
+    margin-top: 21pt;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.hexagon{
+  color: white;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  top: 17pt;
+  left: 20pt;
+  position: fixed;}
+
+.next{
+  color: white;
+  width: 33px;
+  height: 21px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117.5%;
+  position: fixed;
+  right: 37px;
+  top: 28.5px;}
+
+.triangle{
+  margin-top: -13pt;
+  margin-left: 18pt;
+  display: flex;
+}
+
+/*------------------------------------------------*/
+
+
+.text{
+  color: white;
+  font-family: Lato;
+  font-size: 18.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-align: left;
+  margin-top:170pt;
+  margin-left: 180pt;
+}
+
+.shape1{
+  display: flex;
+  width: 199px;
+  height: auto;
+  position: fixed;
+  top: 55pt;
+  right: 224.5pt;
+}
+
+.shape1:hover{
+  content: url('shape11.svg');
+  transition: transform 0.1s ease;
+/*  margin-top: -363.9pt;*/
+/*  margin-left: 760pt;*/
+}
+
+.shape2{
+  display: flex;
+  width: 199px;
+  height: auto;
+  position: fixed;
+  top: 216pt;
+  right: 224.5pt;
+}
+
+.shape3{
+  display: flex;
+  width: 199px;
+  height: auto;
+  position: fixed;
+  top: 390pt;
+  right: 224.5pt;
+}
+
+
+.shape2:hover{
+  content: url('shape22.svg');
+  transition: transform 0.1s ease;
+}
+
+.shape3:hover{
+  content: url('shape33.svg');
+  transition: transform 0.1s ease;
+}
+
+
+
+
+
+
+
+
+
