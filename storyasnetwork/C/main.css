@@ -38,8 +38,9 @@ a{
   font-style: normal;
   font-weight: 400;
   line-height: 117.5%;
-  margin-top: -13.5pt;
-  margin-left: 1076pt;
+  position: fixed;
+  right: 37px;
+  top: 28.5px;
 }
 
 .triangle{

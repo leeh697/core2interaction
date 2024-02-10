@@ -39,8 +39,9 @@ a{
   font-style: normal;
   font-weight: 400;
   line-height: 117.5%;
-  margin-top: -13.5pt;
-  margin-left: 1076pt;
+  position: fixed;
+  right: 37px;
+  top: 28.5px;
 }
 
 .triangle{
@@ -65,9 +66,9 @@ a{
   font-style: normal;
   font-weight: 200;
   line-height: 140%;
-/*  align-items: left;*/
-  text-align: left;
-  margin-top: 53pt;
+/*  display: flex;*/
+  margin-top: 50pt;
+/*  margin: auto;*/
 }
 
 .photo2{
