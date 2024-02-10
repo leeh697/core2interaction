@@ -65,18 +65,23 @@ a{
 
 }
 
-.text{
+.text p{
   color: white;
   font-family: Lato;
   font-size: 18.8px;
   font-style: normal;
   font-weight: 200;
   line-height: 140%;
-  text-align: left;
+/*  text-align: left;*/
   margin-top: 120pt;
-  text-align: center;
+/*  text-align: center;*/
 }
 
+.text{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 760px;
+}
 
 /*왼쪽 정렬인데 중간으로 하는 방법*/
 
