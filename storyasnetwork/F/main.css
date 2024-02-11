@@ -1,0 +1,238 @@
+body{
+  background-color:black;
+  overflow: hidden;
+}
+
+.title1{
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.5%;
+    margin-top: 21pt;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.hexagon{
+  color: white;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  top: 17pt;
+  left: 20pt;
+  position: fixed;}
+
+.next{
+  color: white;
+  width: 33px;
+  height: 21px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117.5%;
+  position: fixed;
+  right: 37px;
+  top: 28.5px;
+}
+
+.triangle{
+  margin-top: -13pt;
+  margin-left: 18pt;
+  display: flex;
+}
+
+/*------------------------------------------------*/
+
+.text p{
+  color: white;
+  font-family: Lato;
+  font-size: 18.8px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140%;
+  margin-top: 170pt;
+}
+
+.text{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 730px;
+}
+
+.text1 p{  color: white;
+  font-family: Lato;
+  font-size: 18.8px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140%;
+  margin-top: 20pt;
+}
+
+.text1{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 730px;
+}
+
+
+.symbol{
+  color: white;
+  width: 13px;
+  height: auto;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+.a1{
+  margin-top: -100pt;
+  margin-left: -200pt;
+}
+
+.a2{
+  margin-top: -270pt;
+  margin-left: -100pt;
+}
+
+.a3{
+  margin-top: 25pt;
+  margin-left: 30pt;
+}
+
+.a4{
+  margin-top: 60pt;
+  margin-left: -60pt;
+}
+
+.a5{
+  margin-top: -60pt;
+  margin-left: -248pt;
+}
+
+.a6{
+  margin-left: 200pt;
+  margin-top: -20pt;
+}
+
+.a7{
+  margin-top: -100pt;
+  margin-left: 330pt;
+}
+
+.a8{
+  margin-top: -76pt;
+  margin-left: 440pt;
+}
+
+.a9{
+  margin-top: -15pt;
+  margin-left:120pt;
+}
+
+.a10{
+  margin-top: 100pt;
+  margin-left: 410pt;
+}
+
+.a11{
+  margin-top: -20pt;
+  margin-left: 510pt;
+}
+
+.a12{
+  margin-top: -140pt;
+  margin-left: 620pt;
+}
+
+.a13{
+  margin-top: 50pt;
+  margin-left: 730pt;
+}
+
+.a14{
+  margin-top: 50pt;
+  margin-left: 685pt;
+}
+
+.a15{
+  margin-top: 75pt;
+  margin-left: 610pt;
+}
+
+.a16{
+  margin-top: -40pt;
+  margin-left: 790pt;
+}
+
+.a17{
+  margin-top: 20pt;
+  margin-left: -100pt;
+}
+
+.a18{
+  margin-top: 48pt;
+}
+
+.a19{
+  margin-top: ;
+  margin-left: -140pt;
+}
+
+.a20{
+  margin-top: 57pt;
+  margin-left: -240pt;
+}
+
+.a22{
+  margin-top: -30pt;
+  margin-left: 100pt;
+}
+
+.a23{
+  margin-top: -100pt;
+  margin-left: 200pt;
+}
+
+.a24{
+  margin-left: 320pt;
+}
+
+.a25{
+  margin-top: -120pt;
+  margin-left: 395pt;
+}
+
+.a26{
+  margin-top: 70pt;
+  margin-left: 460pt;
+}
+
+.a27{
+  margin-top: 50pt;
+  margin-left: 550pt;
+}
+
+.a28{
+  margin-top: -175pt;
+  margin-left: 580pt;
+}
+
+.a29{
+  margin-top: -10pt;
+  margin-left: 700pt;;
+}
+
+.a30{
+  margin-top: 55pt;
+  margin-left: 760pt;;
+}
+
