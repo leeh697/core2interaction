@@ -1,0 +1,113 @@
+body{
+  background-color:black;
+/*  overflow: hidden;*/
+}
+
+.title1{
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.5%;
+    margin-top: 21pt;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.hexagon{
+  color: white;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  top: 17pt;
+  left: 20pt;
+  position: fixed;}
+
+.next{
+  color: white;
+  width: 33px;
+  height: 21px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117.5%;
+  position: fixed;
+  right: 37px;
+  top: 28.5px;
+}
+
+.triangle{
+  margin-top: -13pt;
+  margin-left: 18pt;
+  display: flex;
+}
+
+/*------------------------------------------------*/
+
+.part1{
+  text-align: center;
+}
+.period{
+  -webkit-text-stroke: 1px #ffffff;
+  font-family: Lato;
+  font-size: 300px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: -175pt;
+}
+
+.period:hover{
+  color: white;
+}
+
+.number{
+  text-align: center;
+  -webkit-text-stroke: 1px #ffffff;
+  font-family: Lato;
+  font-size: 270px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: -10pt;
+}
+
+.number:hover{
+  color: white;
+}
+
+.comma{
+  -webkit-text-stroke: 1px #ffffff;
+  font-family: Lato;
+  font-size: 300px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: -135pt;
+}
+.comma:hover{
+  color: white;
+}
+
+.text p{
+  color: white;
+  font-family: Lato;
+  font-size: 18.8px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140%;
+  margin-top: 147pt;
+}
+
+.text{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 969px;
+}
