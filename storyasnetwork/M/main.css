@@ -1,0 +1,81 @@
+body{
+  background-color:black;
+  overflow: hidden;
+  text-align: center;
+}
+
+.title1{
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.5%;
+    margin-top: 21pt;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.hexagon{
+  color: white;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  top: 17pt;
+  left: 20pt;
+  position: fixed;}
+
+.next{
+  color: white;
+  width: 33px;
+  height: 21px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117.5%;
+  position: fixed;
+  right: 37px;
+  top: 28.5px;
+}
+
+.triangle{
+  margin-top: -13pt;
+  margin-left: 18pt;
+  display: flex;
+}
+
+/*------------------------------------------------*/
+
+.path{
+  width: 830px;
+  margin-top: 128pt;
+}
+
+.text p{
+  color: white;
+  font-family: Lato;
+  font-size: 18.8px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140%;
+  text-align: center;
+  margin-top: -360pt;
+/*  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFfffF 19.5%);*/
+  background: linear-gradient(to top, #ffffff, #3A3A3A);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+
+}
+
+.text{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 969px;
+}
