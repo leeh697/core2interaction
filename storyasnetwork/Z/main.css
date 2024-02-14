@@ -1,0 +1,56 @@
+body{
+  background-color:black;
+  overflow: hidden;
+}
+
+.title1{
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.5%;
+    margin-top: 21pt;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.hexagon{
+  color: white;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  top: 17pt;
+  left: 20pt;
+  position: fixed;}
+
+/*------------------------------------------------*/
+
+.text p{
+  color: white;
+  font-family: "georgiapro", sans-serif;
+  text-align: center;
+  font-size: 150px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117.5%;
+  margin-top: 140pt;
+}
+
+.text{
+  margin: 0 auto;
+  max-width: 915px;
+}
+
+
+
+
+
+
+
+
+
