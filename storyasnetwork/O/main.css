@@ -1,0 +1,254 @@
+body{
+  background-color:white;
+/*  overflow-y: hidden;*/
+}
+
+.title1{
+    color: black;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.5%;
+    margin-top: 21pt;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.hexagon{
+  color: black;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  top: 17pt;
+  left: 20pt;
+  position: fixed;}
+
+.next{
+  color: black;
+  width: 33px;
+  height: 21px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117.5%;
+  position: fixed;
+  right: 37px;
+  top: 28.5px;
+}
+
+.triangle{
+  margin-top: -13pt;
+  margin-left: 18pt;
+  display: flex;
+}
+
+/*------------------------------------------------*/
+
+.container {
+  color: black;
+  font-family: Lato;
+  font-size: 23.8px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140%;
+}
+
+.text1{
+  margin-top: 540pt;
+  margin-left: 4pt;
+}
+
+.text1-1{
+  transform: rotate(1.99deg);
+  margin-left: 187pt;
+  margin-top: -17pt;
+}
+
+.text1-2{
+  margin-top: -30pt;
+  margin-left: 387pt;
+}
+
+.text1-3{
+  transform: rotate(-2deg);
+  margin-top: -36pt;
+  margin-left: 590pt;
+}
+
+.text1-4{
+  margin-top: -20pt;
+  margin-left: 800pt;
+}
+
+/*------------------------------------------------*/
+
+.text2{
+  transform: rotate(-2.427deg);
+  margin-top: -85pt;
+}
+
+.text2-1{
+  margin-top: 0pt;
+  margin-left: 136pt;
+}
+
+.text2-2{
+  transform: rotate(1.658deg);
+  margin-top: -15pt;
+  margin-left: 305pt;
+}
+
+.text2-3{
+  margin-top: -20pt;
+  margin-left: 550pt;
+}
+
+.text2-4{
+  margin-top: -30pt;
+  margin-left: 723pt;
+}
+
+.text2-5{
+  transform: rotate(-3.333deg);
+  margin-top: -35pt;
+  margin-left: 950pt;
+}
+
+/*------------------------------------------------*/
+
+.text3{
+  margin-top: -64pt;
+  margin-left: -8pt;
+}
+
+.text3-1{
+  transform: rotate(3.207deg);
+  margin-left: 60pt;
+}
+
+.text3-2{
+  margin-top: -37pt;
+  margin-left: 176pt;
+}
+
+.text3-3{
+  margin-top: -1pt;
+  margin-left: 256pt;
+  transform: rotate(3.902deg);
+}
+
+.text3-4{
+  transform: rotate(-0.448deg);
+  margin-left: 385pt;
+  margin-top: -50pt;
+}
+
+.text3-5{
+  margin-top: -16pt;
+  margin-left: 600pt;
+}
+
+.text3-6{
+  transform: rotate(-1.009deg);
+  margin-top: -33pt;
+  margin-left: 820pt;
+}
+/*------------------------------------------------*/
+
+.text4{
+  transform: rotate(-2.956deg);
+  margin-top: -98pt;
+  margin-left: 7pt;
+}
+
+.text4-1{
+  margin-top: 5pt;
+  margin-left: 83pt;
+}
+
+.text4-2{
+  margin-top: -13pt;
+  margin-left: 260pt;
+}
+
+.text4-3{
+  transform: rotate(-2.707deg);
+  margin-top: -34pt;
+  margin-left: 450pt;
+}
+
+.text4-4{
+  transform: rotate(2.038deg);
+  margin-top: -3pt;
+  margin-left: 554pt;
+}
+
+.text4-5{
+  margin-top: -38pt;
+  margin-left: 678pt;
+}
+
+.text4-6{
+  transform: rotate(13.542deg);
+  margin-top: -30pt;
+  margin-left: 1000pt;
+}
+
+.text5{
+  transform: rotate(-14.151deg);
+  margin-top: -210pt;
+  margin-left: -18pt;
+}
+
+.text5-1{
+  margin-top: 110pt;
+  margin-left: 91pt;
+}
+
+.text5-2{
+  transform: rotate(20.569deg);
+  margin-top: 150pt;
+  margin-left: 236pt;
+}
+
+.text5-3{
+  margin-top: -173pt;
+  margin-left: 308pt;
+}
+
+.text5-4{
+  transform: rotate(1.938deg);
+  margin-top: -18pt;
+  margin-left: 448pt;
+}
+
+.text5-5{
+  transform: rotate(-2.731deg);
+  margin-top: -40pt;
+  margin-left: 737pt;
+}
+
+.text5-6{
+  margin-top: -30pt;
+  margin-left: 900pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
