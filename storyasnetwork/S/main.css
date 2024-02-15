@@ -1,0 +1,96 @@
+body{
+  background-color:white;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.title1{
+    color: black;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.5%;
+    margin-top: 21pt;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.hexagon{
+  color: black;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  top: 17pt;
+  left: 20pt;
+  position: fixed;}
+
+.next{
+  color: black;
+  width: 33px;
+  height: 21px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 117.5%;
+  position: fixed;
+  right: 37px;
+  top: 28.5px;
+}
+
+.triangle{
+  margin-top: -13pt;
+  margin-left: 18pt;
+  display: flex;
+}
+
+/*------------------------------------------------*/
+
+.shape{
+  width: 530px;
+  margin-top: 50pt;
+}
+
+
+
+
+.text p{
+  color: white;
+  font-family: Lato;
+  font-size: 18.8px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140%;
+  margin-top: -341pt;
+}
+
+.text{
+  text-align: left;
+  margin: 0 auto;
+  max-width: 426px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
