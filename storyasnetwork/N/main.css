@@ -64,7 +64,7 @@ a{
 .text{
   text-align: left;
   margin: 0 auto;
-  max-width: 775px;
+  max-width: 773.5px;
 }
 
 
@@ -82,7 +82,7 @@ a{
 }
 
 .a1{
-  margin-top: 0pt;
+  margin-top: -3pt;
   margin-left: 200pt;
   color: #B0B0B0;
 }

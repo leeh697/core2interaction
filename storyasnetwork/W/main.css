@@ -73,7 +73,7 @@ a{
 .text{
   text-align: left;
   margin: 0 auto;
-  max-width: 728px;
+  max-width: 725px;
 }
 
 @media (max-width: 734px){

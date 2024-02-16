@@ -99,7 +99,7 @@ a{
 
 .text p:hover{
   content: url('p2.svg');
-  transition: transform 0.1s ease;
+  transition: transform 2s ease;
   margin-left: -330pt;
   margin-top: 180pt;
   transform: scale(1.0);
