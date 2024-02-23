@@ -54,7 +54,7 @@ a{
 
 
 
-.text p{
+p{
   color: black;
   font-family: Lato;
   font-size: 18.8px;
@@ -62,7 +62,6 @@ a{
   font-weight: 200;
   line-height: 140%;
   margin-top: 144pt;
-  transition: color 2.5s ease;
 }
 
 .text{
@@ -71,10 +70,10 @@ a{
   max-width: 788px;
 }
 
-p:hover {
+.hover:hover{
   color: white;
+  transition: color 0.15s ease-out;
 }
-
 
 
 
