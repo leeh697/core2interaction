@@ -58,14 +58,15 @@ a{
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
-  margin-top:165pt;
-  margin-left: -250pt;
+  position: relative;
+  top:150pt;
+  left: -199pt;
 }
 
 .text{
   text-align: left;
   margin: 0 auto;
-  max-width: 361.5px;
+  max-width: 482px;
 }
 
 
