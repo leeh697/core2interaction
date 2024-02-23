@@ -22,18 +22,18 @@ body{background-color:white;
 }
 
 .shape{
-	size: 350%;
+	size: 400%;
 }
 
 .hexagon {
-  width: 300px; /* Adjust the size as needed */
-  height: 173.21px; /* (sqrt(3)/2) * width */
-  background-color: black; /* Blue color, you can change this */
+  width: 325px;
+/*  height: 173.21px; 
+  background-color: black; */
   position: absolute;
   animation: moveAround 18s infinite;
 }
 
-.hexagon:before,
+/*.hexagon:before,
 .hexagon:after {
   content: '';
   width: 0;
@@ -43,14 +43,14 @@ body{background-color:white;
 }
 
 .hexagon:before {
-  top: -86.30px; /* -1/2 * height */
-  border-bottom: 86.60px solid black; /* Blue color, same as hexagon background */
+  top: -86.30px; 
+  border-bottom: 86.60px solid black;
 }
 
 .hexagon:after {
-  bottom: -86.30px; /* -1/2 * height */
-  border-top: 86.60px solid black; /* Blue color, same as hexagon background */
-}
+  bottom: -86.30px;
+  border-top: 86.60px solid black; 
+}*/
 
 @keyframes moveAround {
   0% {
