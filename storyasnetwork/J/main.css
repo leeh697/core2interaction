@@ -56,7 +56,9 @@ a{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 60pt;
+  position: relative;
+  top: 60pt;
+  transition: background-color 0.3s ease-in-out;s
 }
 
 .circle1{
@@ -71,6 +73,21 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.circle1:hover{
+  background-color: #FFA8A8;
+  color: white;
+}
+
+.circle2:hover{
+  background-color: #FFA8A8;
+  color: white;
+}
+
+.circle3:hover{
+  background-color: #FFA8A8;
+  color: white;
 }
 
 .circle2{
@@ -107,7 +124,9 @@ a{
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin-top: 10pt;
+  position: relative;
+  top: 70pt;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .text1 p{

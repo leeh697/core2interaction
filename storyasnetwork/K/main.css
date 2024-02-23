@@ -65,7 +65,7 @@ a{
 }
 
 .period:hover{
-  color: white;
+  color: #FFA8A8;
 }
 
 .number{
@@ -80,7 +80,7 @@ a{
 }
 
 .number:hover{
-  color: white;
+  color: #FFA8A8;
 }
 
 .comma{
@@ -93,7 +93,7 @@ a{
   margin-top: -135pt;
 }
 .comma:hover{
-  color: white;
+  color: #FFA8A8;
 }
 
 .text p{
