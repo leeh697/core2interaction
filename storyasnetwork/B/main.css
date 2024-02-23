@@ -28,6 +28,7 @@ a{
   left: 20pt;
   position: fixed;}
 
+
 .next{
   color: white;
   width: 33px;
@@ -62,7 +63,6 @@ a{
   transition: transform 0.1s ease;
   transform: scale(1);
   margin-left: 194pt;
-
 }
 
 .text p{
