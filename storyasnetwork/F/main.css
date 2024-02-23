@@ -93,6 +93,11 @@ a{
   font-weight: 400;
   line-height: 140%;
 }
+
+.symbol{
+  color: #FFA8A8;
+}
+
 .a1{
   margin-top: -100pt;
   margin-left: -200pt;
