@@ -55,8 +55,9 @@ a{
   width: 115%;
   height: auto;
   display: flex;
-  margin-left: -40pt;
-  margin-top: 35pt;
+  position: relative;
+  left: -40pt;
+  top: 35pt;
 }
 
 .text p{
@@ -66,8 +67,9 @@ a{
   font-style: normal;
   font-weight: 200;
   line-height: 140%;
+  position: relative;
 /*  display: flex;*/
-  margin-top: 50pt;
+  top: 50pt;
 /*  margin: auto;*/
 }
 
@@ -81,8 +83,9 @@ a{
   width: 115%;
   height: auto;
   display: flex;
-  margin-left: -40pt;
-  margin-top: 55pt;
+  position: relative;
+  left: -40pt;
+  top: 55pt;
 }
 
 
