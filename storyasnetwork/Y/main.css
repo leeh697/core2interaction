@@ -71,12 +71,13 @@ a{
 
 .rec1{
   width: 201px;
-  height: 1539px;
+  height: 100%;
   transform: rotate(0deg);
   border: 1px solid #FFF;
   display: flex;
-  margin-top: -423pt;
-  margin-left: 800pt;
+  position: relative;
+  top: -423pt;
+  left: 800pt;
 }
 
 .text1 p{
@@ -87,14 +88,16 @@ a{
   font-weight: 400;
   line-height: 140%;
   text-align: center;
-  margin-top: -613pt;
+  position: relative;
+  top:-24500px;
+/*  margin-top: -2013pt;*/
   line-height: 3;
   display: inline-flex;
 }
 
 .text1 {
   white-space: nowrap; /* Prevent text from wrapping to the next line */
-  animation: marquee 14s linear infinite; /* Animation properties */
+  animation: marquee 100s linear infinite; /* Animation properties */
 }
 
 .text1{
@@ -103,14 +106,12 @@ a{
 
 @keyframes marquee {
   0% {
-    transform: translateY(0);
+    transform: translateY(100%);
   }
   100% {
     transform: translateY(-100%);
-
-
-
-
+}
+}
 
 
 
