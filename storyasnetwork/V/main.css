@@ -75,6 +75,11 @@ a{
   -webkit-text-stroke: 0.8px black;
 }
 
+.fill:hover{
+  color: #FFA8A8;
+  -webkit-text-stroke: 0.8px #FFA8A8;
+}
+
 
 
 
