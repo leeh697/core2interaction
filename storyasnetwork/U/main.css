@@ -6,7 +6,8 @@ body{
 .title1{
     color: white;
     text-align: center;
-    font-family: Lato;
+/*    font-family: Lato;*/
+    font-family: "georgiapro", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -33,7 +34,8 @@ a{
   width: 33px;
   height: 21px;
   text-align: center;
-  font-family: Lato;
+/*  font-family: Lato;*/
+  font-family: "georgiapro", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -59,7 +61,7 @@ a{
   font-weight: 200;
   line-height: 140%;
   position: relative;
-  top: 160pt;
+  top: 150pt;
 }
 
 .text{
@@ -68,24 +70,36 @@ a{
   max-width: 896px;
 }
 
+.text1{
+  color: grey;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 140%;
+  position: relative;
+  top: 200pt;
+  left: 7pt;
+}
 
 .line-container {
   display: inline-block;
   overflow: hidden;
   position: relative;
   top: 200pt;
+  left: -5pt;
   }
 
 .line {
   display: block;
-  width: 20px;
+  width: 30px;
   height: 7px; 
   background-color: #FFA8A8;
-  transition: width 1s ease; 
+  transition: width 2s ease; 
   }
 
   .line-container:hover .line {
-    width: 1500px;
+    width: 2500px;
   }
 
 
