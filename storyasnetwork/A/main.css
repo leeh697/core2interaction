@@ -7,7 +7,8 @@ body{
 .title1{
     color: white;
     text-align: center;
-    font-family: Lato;
+/*    font-family: Lato;*/
+  font-family: "georgiapro", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -34,7 +35,8 @@ a{
   width: 33px;
   height: 21px;
   text-align: center;
-  font-family: Lato;
+/*  font-family: Lato;*/
+  font-family: "georgiapro", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -57,7 +59,7 @@ a{
   display: flex;
   position: relative;
   left: -40pt;
-  top: 35pt;
+  top: 40pt;
 }
 
 .text p{
@@ -69,7 +71,7 @@ a{
   line-height: 140%;
   position: relative;
 /*  display: flex;*/
-  top: 50pt;
+  top: 68pt;
 /*  margin: auto;*/
 }
 
@@ -85,7 +87,7 @@ a{
   display: flex;
   position: relative;
   left: -40pt;
-  top: 55pt;
+  top: 95pt;
 }
 
 

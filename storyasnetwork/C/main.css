@@ -6,7 +6,8 @@ body{
 .title1{
     color: white;
     text-align: center;
-    font-family: Lato;
+/*    font-family: Lato;*/
+  font-family: "georgiapro", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -33,7 +34,8 @@ a{
   width: 33px;
   height: 21px;
   text-align: center;
-  font-family: Lato;
+/*  font-family: Lato;*/
+  font-family: "georgiapro", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -55,10 +57,20 @@ a{
   width: 181px;
   height: 1539px;
   transform: rotate(-90deg);
-  border: 1px solid #FFF;
+  border: 1px solid black;
   display: flex;
   margin-top: -420pt;
   margin-left: 500pt;
+}
+
+.rec12{
+  width: 2500px;
+  height: 181px;
+  border: 1px solid white;
+  display: flex;
+  position: relative;
+  top: -646.5pt;
+  left: -10pt;
 }
 
 .text1{
@@ -69,7 +81,7 @@ a{
   font-weight: 400;
   line-height: 140%;
   text-align: left;
-  margin-top: -613pt;;
+  margin-top: -750pt;
 }
 
 .text1 {
@@ -91,15 +103,25 @@ a{
   }
 }
 
-.rec2{
+/*.rec2{
   width: 181px;
   height: 1539px;
   transform: rotate(-90deg);
-  border: 1px solid #FFF;
+  border: 1px solid white;
   display: flex;
   margin-top: -350pt;
   margin-left: 500pt;
+}*/
+
+.rec22{
+  width: 2500px;
+  height: 181px;
+  border: 1px solid white;
+  display: flex;
+  margin-top: 159pt;
+  margin-left: -10pt;
 }
+
 
 .text2{
   color: white;
@@ -109,7 +131,7 @@ a{
   font-weight: 400;
   line-height: 140%;
   text-align: left;
-  margin-top: -614pt;;
+  margin-top: -104pt;
 }
 
 .text2{
