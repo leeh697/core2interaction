@@ -1,12 +1,15 @@
 body{
   background-color:black;
   overflow: hidden;
+/*  cursor: help;*/
+  cursor: url('question.svg'), auto;
 }
 
 .title1{
     color: white;
     text-align: center;
-    font-family: Lato;
+/*    font-family: Lato;*/
+    font-family: "georgiapro", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -33,7 +36,8 @@ a{
   width: 33px;
   height: 21px;
   text-align: center;
-  font-family: Lato;
+/*  font-family: Lato;*/
+  font-family: "georgiapro", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -67,173 +71,15 @@ a{
   max-width: 773.5px;
 }
 
-
-
-.symbol{
-  color: #FFA8A8;
-  width: 13px;
-  height: auto;
-  font-family: Lato;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;;}
-
-.a1{
-  margin-top: -3pt;
-  margin-left: 200pt;
+.text1{
+  color: black;
+  margin-top: 500pt;
 }
 
-.a2{
-  margin-top: 50pt;
-  margin-left: 120pt;
+.fill:hover{
+  color: black;
+  transition: 0.2s ease;
 }
-
-.a3{
-  margin-top: -380pt;
-  margin-left: 60pt;
-}
-
-.a4{
-  margin-top: -80pt;
-  margin-left: 200pt;
-}
-
-.a5{
-  margin-top: 55pt;
-  margin-left: 300pt;
-}
-
-.a6{
-  margin-top: -50pt;
-  margin-left: 400pt;
-}
-
-.a7{
-  margin-top: -90pt;
-  margin-left: 450pt;
-}
-
-.a8{
-  margin-top: ;
-  margin-left: 600pt;
-}
-
-.a9{
-  margin-top: 60pt;
-  margin-left: 530pt;
-}
-
-.a10{
-  margin-top: -23pt;
-  margin-left: 710pt;
-}
-
-.a11{
-  margin-top: -140pt;
-  margin-left: 760pt;
-}
-
-.a12{
-  margin-top: ;
-  margin-left: 880pt;
-}
-
-.a13{
-  margin-top: 50pt;
-  margin-left: 1040pt;
-}
-
-.a14{
-  margin-top: 35pt;
-  margin-left: 940pt;
-}
-
-.a15{
-  margin-top: -175pt;
-  margin-left: 1070pt;
-}
-
-.a16{
-  margin-top: 240pt;
-  margin-left: 865pt;
-}
-
-.a17{
-  margin-top: -50pt;
-  margin-left: 990pt;
-}
-
-.a18{
-  margin-top: 65pt;
-  margin-left: 1060pt;
-}
-
-.a19{
-  margin-top: 30pt;
-  margin-left: 930pt;
-}
-
-.a20{
-  margin-top: 60pt;
-  margin-left: 1040pt;
-}
-
-.a21{
-  margin-top: -160pt;
-  margin-left: 740pt;
-}
-
-.a22{
-  margin-top: 80pt;
-  margin-left: 800pt;
-}
-
-.a23{
-  margin-top: 20pt;
-  margin-left: 660pt;
-}
-
-.a24{
-  margin-top: -90pt;
-  margin-left: 560pt;
-}
-
-.a25{
-  margin-top: -85pt;
-  margin-left: 500pt;
-}
-
-.a26{
-  margin-top: 60pt;
-  margin-left: 380pt;
-}
-
-.a27{
-  margin-top: -74pt;
-  margin-left: 270pt;
-}
-
-.a28{
-  margin-top: 90pt;
-  margin-left: 180pt;
-}
-
-.a29{
-  margin-top: -380pt;
-  margin-left: 110pt;
-}
-
-.a30{
-  margin-top: 20pt;
-  margin-left: 240pt;
-}
-
-.a31{
-  margin-top: 30pt;
-  margin-left: 45pt;
-}
-
 
 
 
