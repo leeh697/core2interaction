@@ -6,7 +6,8 @@ body{
 .title1{
     color: white;
     text-align: center;
-    font-family: Lato;
+/*    font-family: Lato;*/
+    font-family: "georgiapro", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -33,7 +34,8 @@ a{
   width: 33px;
   height: 21px;
   text-align: center;
-  font-family: Lato;
+/*  font-family: Lato;*/
+  font-family: "georgiapro", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -52,10 +54,15 @@ a{
 /*------------------------------------------------*/
 
 .line{
-  width: 1511px;
+  width: 2340px;
   align-content: center;
-  margin-left: -4.5pt;
-  margin-top: 41pt;
+  margin-left: -10pt;
+  margin-top: 51pt;
+}
+
+.container{
+  margin: 0 auto;
+/*  text-align: center;*/
 }
 
 .text p{
@@ -65,7 +72,7 @@ a{
   font-style: normal;
   font-weight: 200;
   line-height: 140%;
-  margin-top: -367pt;
+  margin-top: -342pt;
 }
 
 .text{
