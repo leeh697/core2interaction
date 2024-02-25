@@ -63,7 +63,7 @@ a{
   transition: background-color 0.3s ease-in-out;s
 }
 
-.circle1{
+#circle1{
   width: 180px;
   height: 53px;
   border-radius: 50%;
@@ -75,24 +75,25 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
-.circle1:hover{
+#circle1:hover{
   background-color: #FFA8A8;
   color: white;
 }
 
-.circle2:hover{
+#circle2:hover{
   background-color: #FFA8A8;
   color: white;
 }
 
-.circle3:hover{
+#circle3:hover{
   background-color: #FFA8A8;
   color: white;
 }
 
-.circle2{
+#circle2{
   width: 180px;
   height: 53px;
   border-radius: 50%;
@@ -104,9 +105,10 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
-.circle3{
+#circle3{
   width: 180px;
   height: 53px;
   border-radius: 50%;
@@ -118,6 +120,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 
@@ -131,7 +134,7 @@ a{
   transition: background-color 0.3s ease-in-out;
 }
 
-.text1 p{
+#text1 p{
   color: black;
   font-family: Lato;
   font-size: 18.8px;
@@ -142,16 +145,18 @@ a{
 /*  margin-left: -215pt;*/
 }
 
-.text1{
+#text1{
   text-align: left;
   margin: 0 auto;
   max-width: 323.9px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 /*  opacity: 0;
   transition: opacity 0.3s ease;
 */}
 
 
-.text2 p{
+#text2 p{
   color: black;
   font-family: Lato;
   font-size: 18.8px;
@@ -162,13 +167,15 @@ a{
 /*  margin-left: -215pt;*/
 }
 
-.text2{
+#text2{
   text-align: left;
   margin: 0 auto;
   max-width: 323.9px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-.text3 p{
+#text3 p{
   color: black;
   font-family: Lato;
   font-size: 18.8px;
@@ -179,10 +186,12 @@ a{
 /*  margin-left: -215pt;*/
 }
 
-.text3{
+#text3{
   text-align: left;
   margin: 0 auto;
   max-width: 323.9px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 

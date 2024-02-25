@@ -34,25 +34,43 @@
 
 <!-- /*------------------------------------------------*/ -->
 	<div class="container1">
-		<div class="circle1">ENGLISH</div>
-		<div class="circle2">PORTUGUESE</div>
-		<div class="circle3">YIDDISH</div>
+		<div id="circle1" onclick="toggleText()">ENGLISH</div>
+		<div id="circle2" onclick="toggleText1()">PORTUGUESE</div>
+		<div id="circle3" onclick="toggleText2()">YIDDISH</div>
 	</div>
 
 
 	<div class="container2">
-		<div class="text1">
+		<div id="text1">
 			<p>Five hundred years ago, the chief of an upper hexagon 2 came upon a book as confusing as the others, but which had nearly two pages of homogeneous lines. He showed his find to a wandering decoder who told him the lines were written in Portuguese; others said they were Yiddish. Within a century, the language was established: a Samoyedic Lithuanian dialect of Guarani, with classical Arabian inflections. The content was also deciphered: some notions of combinative analysis, illustrated with examples of variations with unlimited repetition. These examples made it possible for a librarian of genius to discover the fundamental law of the Library.</p>
 		</div>
 
-		<div class="text2">
+		<div id="text2">
 			<p>Há 500 anos, o chefe de um hexágono 2 superior encontrou um livro tão confuso como os outros, mas que tinha quase duas páginas de linhas homogéneas. Mostrou a sua descoberta a um descodificador errante que lhe disse que as linhas estavam escritas em português; outros disseram que eram yiddish. Dentro de um século, a língua foi estabelecida: um dialecto samoyedico lituano de Guarani, com inflexões árabes clássicas. O conteúdo também foi decifrado: algumas noções de análise combinativa, ilustradas com exemplos de variações com repetição ilimitada. Estes exemplos fizeram com que um bibliotecário de génio descobrisse a lei fundamental da Biblioteca.</p>
 		</div>
 
-		<div class="text3">
+		<div id="text3">
 			<p>500 יאָר צוריק, דער קאָפּ פון אַ העכער כעקסאַגאָן 2 געפונען אַ בוך ווי קאַנפיוזינג ווי די אנדערע, אָבער עס האט כּמעט צוויי בלעטער פון כאָומאַדזשיניאַס שורות. ער האָט געוויזן זײַן אַנטדעקונג פֿאַר אַ וואַנדערנדיקן דעקאָדער, וואָס האָט אים געזאָגט, אַז די שורות זענען געשריבן אויף פּאָרטוגעזיש; אנדערע האבן געזאגט אז זיי זענען יידיש. אין אַ יאָרהונדערט, די שפּראַך איז געגרינדעט: אַ ליטוויש סאַמאָידיש דיאַלעקט פון גואַראַניש, מיט קלאַסיש אַראַביש בייגונגען. דער אינהאַלט איז אויך דיסיפערד: עטלעכע באַגריף פון קאָמבינאַטאָריאַל אַנאַליסיס, אילוסטרירט מיט ביישפילן פון ווערייישאַנז מיט אַנלימאַטאַד איבערחזרן. ד י ביישפיל ן האב ן געפיר ט א זשעניא ן ביבליאטע ק צ ו אנטדעק ן ד י פונדאמענטאל ע געזע ץ פו ן דע ר ביבליאטעק .</p>
 		</div>
 	</div>
+
+  <script>
+    // JavaScript function to toggle text visibility
+    function toggleText() {
+      var text = document.getElementById('text1');
+      text.style.opacity = (text.style.opacity === '0') ? '1' : '0';
+    }
+
+    function toggleText1() {
+      var text = document.getElementById('text2');
+      text.style.opacity = (text.style.opacity === '0') ? '1' : '0';
+    }
+
+    function toggleText2() {
+      var text = document.getElementById('text3');
+      text.style.opacity = (text.style.opacity === '0') ? '1' : '0';
+    }
+  </script>
 
 </body>
 </html>
