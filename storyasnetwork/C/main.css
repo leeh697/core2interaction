@@ -94,6 +94,10 @@ a{
   display: inline-block; /* Display the text as an inline block */
 }
 
+.text1:hover{
+  color: #FFA8A8;
+}
+
 @keyframes marquee {
   from {
     transform: translateX(95%); /* Move to the right by 100% of the container width */
@@ -142,6 +146,10 @@ a{
 
 .text2 p {
   display: inline-block; /* Display the text as an inline block */
+}
+
+.text2:hover{
+  color: #FFA8A8;
 }
 
 @keyframes marquee1 {
