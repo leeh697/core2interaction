@@ -6,7 +6,8 @@ body{
 .title1{
     color: white;
     text-align: center;
-    font-family: Lato;
+/*    font-family: Lato;*/
+    font-family: "georgiapro", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -33,7 +34,8 @@ a{
   width: 33px;
   height: 21px;
   text-align: center;
-  font-family: Lato;
+/*  font-family: Lato;*/
+  font-family: "georgiapro", sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -84,7 +86,7 @@ a{
 
 
 .symbol{
-  color: white;
+  color: #FFA8A8;
   width: 13px;
   height: auto;
   font-family: Lato;
@@ -92,10 +94,6 @@ a{
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
-}
-
-.symbol{
-  color: #FFA8A8;
 }
 
 .a1{
