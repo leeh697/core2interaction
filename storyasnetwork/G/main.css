@@ -53,34 +53,14 @@ a{
 
 /*------------------------------------------------*/
 
-.circle1{
-  width: 170px;
-  height: 50px;
-  border-radius: 50%;
-  border: 1px solid white;
-  background-color: white;
-  color: black;
-  font-family: Lato;
-  font-size: 18.8px;
-  font-weight: 200;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 250pt;
-}
-
-.container1:hover{
-  content: url('p2.svg');
-  transition: transform 0.3s ease;
-  margin-left: ;
-  margin-top: ;
+.container1{
   transform: scale(0.93);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 139pt;
+  position: relative;
+  top: 132pt;
 }
 
 .text p{
