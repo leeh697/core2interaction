@@ -54,37 +54,13 @@ a{
 /*------------------------------------------------*/
 
 .container1{
-  transform: scale(0.93);
+  transform: scale(0.8);
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   position: relative;
   top: 132pt;
-}
-
-.text p{
-  color: white;
-  font-family: Lato;
-  font-size: 18.8px;
-  font-style: normal;
-  font-weight: 200;
-  line-height: 140%;
-  margin-top: 170pt;
-}
-
-.text{
-  text-align: left;
-  margin: 0 auto;
-  max-width: 100px;
-}
-
-.text p:hover{
-  content: url('p2.svg');
-  transition: transform 2s ease;
-  margin-left: -330pt;
-  margin-top: 180pt;
-  transform: scale(1.0);
 }
 
 
