@@ -72,11 +72,19 @@ p{
   max-width: 788px;
 }
 
-.hover:hover{
+/*.hover:hover{
   color: white;
   transition: color 0.15s ease-out;
+}*/
+
+.word{
+  cursor: pointer;
+  transition: transform 0.7s ease-in-out;
 }
 
+.word.clicked {
+  color: white;
+}
 
 
 
