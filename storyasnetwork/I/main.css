@@ -1,10 +1,10 @@
 body{
-  background-color:black;
+  background-color:#000;
   overflow: hidden;
 }
 
 .title1{
-    color: white;
+    color: black;
     text-align: center;
 /*    font-family: Lato;*/
     font-family: "georgiapro", sans-serif;
@@ -17,11 +17,11 @@ body{
 
 a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .hexagon{
-  color: white;
+  color: black;
   width: 30px;
   height: 30px;
   flex-shrink: 0;
@@ -30,7 +30,7 @@ a{
   position: fixed;}
 
 .next{
-  color: white;
+  color: black;
   width: 33px;
   height: 21px;
   text-align: center;
@@ -54,7 +54,7 @@ a{
 /*------------------------------------------------*/
 
 .text p{
-  color: white;
+  color: black;
   font-family: Lato;
   font-size: 18.8px;
   font-style: normal;
@@ -68,3 +68,33 @@ a{
   margin: 0 auto;
   max-width: 764.5px;
 }
+
+.cursor{
+  height: 360px;
+  width: 360px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+}
+
+/*.light{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(circle at var(--x) var(--y), transparent10%, rgba(0,0,0,0.95) 20%);
+}
+*/
+
+
+
+
+
+
+
+
+
+
