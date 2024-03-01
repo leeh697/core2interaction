@@ -1,0 +1,51 @@
+body{
+  background-color:beige;
+/*  overflow: hidden;*/
+}
+
+#container{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#container:hover .fill{
+  border-radius: 100px;
+}
+
+.letter{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  background-color: beige;
+  border-radius: 0px;
+}
+
+.fill {
+  background-color: darkolivegreen;
+  transition: border-radius 1s linear;
+}
+
+.H {
+  width: 170px;
+}
+
+.E {
+  width: 160px;
+}
+
+.L {
+  width: 170px;
+}
+
+.O {
+  width: 160px;
+}
