@@ -1,81 +1,111 @@
-body{background-color: #0F2C59;}
+body{background-color: #f9f9f9;}
 
-.title1{color: #F8F0E5;
-	font-family: 'Playfair Display', serif;
-	font-weight: ;
-	font-size: 150pt;
-	text-align: center;
-	margin-top: 140pt;}
+.title1{color: #3d5a5b;
+	font-family: "articulat-cf", sans-serif;
+font-weight: 500;
+font-style: normal;
+	font-size: 130pt;
+	text-align: left;
+	margin-top: 5pt;
+	margin-left: 13pt;}
 
-.name{color: #EADBC8;
+.title1:hover{
+	font-weight: 700;
+	transition: 0.1s ease;
+	color: #febeb0;
+}
+
+.name{color: black;
 	font-size: 12pt;
 	font-family: sans-serif;
 	text-align: left;
 	margin-top:15pt;
 	margin-left: 20pt;}
 
-.course{color: #EADBC8;
+.course{color: black;
 	font-size: 12pt;
 	font-family: sans-serif;
 	text-align: center;
 	margin-top:-14pt;}
 
-.spring{color: #EADBC8;
+.spring{color: black;
 	font-size: 12pt;
 	font-family: sans-serif;
 	text-align: right;
 	margin-top: -14pt;
 	margin-right: 20pt;}
+/*----------------------*/
 
 .container{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;}
+	justify-content: flex-start;
+}
 
 .studio{
-	color: #0F2C59;
-	margin-top: 205pt;
+	color: #f9f9f9;
+	margin-top: 35pt;
 	margin-left: 20pt;
-	width: 656px;
-	height: 551px;
-	background-color: #F8F0E5;
+	width: 696px;
+	height: 451px;
+	background-color: #3d5a5b;
 	align-items: center;
 }
 
 .text1{
-	margin-top: 10pt;
-	margin-left: 15pt;
-	font-family: 'Playfair', serif;
-	font-size: 24pt;
+	margin-top: 17pt;
+	margin-left: 16pt;
+	font-family: "articulat-cf", sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 22pt;
 }
 
 .text1-1{
-	font-family: 'Roboto', sans-serif;
-	font-size: 16pt;
+	font-family: "articulat-cf", sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 15pt;
+	margin-left: 13pt;
 }
 
-.lab{color: #0F2C59;
-	margin-top: 205pt;
-	margin-left: 20pt;
-	width: 656px;
-	height: 551px;
-	background-color: #F8F0E5;
+.lab{color: #f9f9f9;
+	margin-top: 35pt;
+	margin-left: 25pt;
+	width: 696px;
+	height: 451px;
+	background-color: #3d5a5b;
 	align-content: center;
 }
 
 .text2{
-	margin-top: 10pt;
-	margin-left: 15pt;
-	font-family: 'Playfair', serif;
-	font-size: 24pt;
+	margin-top: 17pt;
+	margin-left: 16pt;
+	font-family: "articulat-cf", sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 22pt;
 }
 
 .text2-1{
-	font-family: 'Roboto', sans-serif;
-	font-size: 16pt;
+	font-family: "articulat-cf", sans-serif;
+font-weight: 300;
+font-style: normal;
+	font-size: 15pt;
+	margin-left: 13pt;
 }
 
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #febeb0;
+	font-size: 26pt;
+}
 
 
 
