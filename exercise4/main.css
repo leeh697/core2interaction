@@ -1,0 +1,35 @@
+body{
+  background-color:floralwhite;
+}
+
+.container{
+  width: 291px;
+  margin: auto;
+  position: relative;
+  top: 250px;
+}
+
+.title{
+  font-family: "Baskervville", serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 45px;
+}
+
+.author{
+  font-size: 15px;
+}
+
+#poem{
+  font-family: "Baskervville", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  position: relative;
+  top: 25px;
+}
+
+#span1, #span2{
+  font-style: italic;
+  color: darkblue;
+}
