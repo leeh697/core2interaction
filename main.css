@@ -9,11 +9,11 @@ font-style: normal;
 	margin-top: 5pt;
 	margin-left: 13pt;}
 
-.title1:hover{
+/*.title1:hover{
 	font-weight: 700;
 	transition: 0.1s ease;
 	color: #febeb0;
-}
+}*/
 
 .name{color: black;
 	font-size: 12pt;
