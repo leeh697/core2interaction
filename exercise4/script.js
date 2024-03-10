@@ -18,13 +18,4 @@ let mySpan2="span2"
 console.log(mySpan2)
 
 let randomSpan2=Math.floor(Math.random()*secondArray.length);
-document.getElementById("span2").innerHTML=secondArray[randomSpan2]
-
-
-// let thirdArray=["surprised","happy","sad","excited","bored","anxious","disappointed","glad","confused","lucky"];
-
-// document.getElementById("span3")
-// let mySpan1="span3"
-
-// let randomSpan3=Math.floor(Math.random()*thirdArray.length);
-// document.getElementById("span3").innerHTML=thirdArray[randomSpan3]
+document.getElementById("span2").innerHTML=secondArray[randomSpan2];
