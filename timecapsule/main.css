@@ -1,0 +1,148 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.top{
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 25px;
+  position: fixed;
+  z-index: 1;
+}
+
+.title{
+  font-family: "span", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.info{ 
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+ }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.description{
+  position: relative;
+  transform: translate(25.8px, 80px);
+  font-size: 18px;
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  max-width: 1400px;
+/*  Padding: 0px 20px 0px 0px;*/
+  margin-right: 20px;
+}
+
+/*------------------------------------------------------------------------*/
+
+.background{
+  flex-direction: flex-start;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 95px 3px;
+  position: relative;
+  top: 130px;
+}
+
+
+img {
+  width: 110%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.cha, .di, .guc, .her, .val, .mai, .ys, .chl, .pra, .dgg{
+  font-size: 16px;
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  position: relative;
+  left:25.8px;
+  top: 8px;
+}
+
+.cha:hover{
+  color: #DAA520;
+}
+
+.di:hover{
+  color: #0080FF;
+}
+
+.guc:hover{
+  color: #008000;
+}
+
+.her:hover{
+  color: #F37021;
+}
+
+.val:hover{
+  color: #FF0000;
+}
+
+.mai:hover{
+  color: #D3D3D3;
+}
+
+.ys:hover{
+  color: #FFD700;
+}
+
+.chl:hover{
+  color: #FFE4C4;
+}
+
+.pra:hover{
+  color: #008000;
+}
+
+.dgg:hover{
+  color: #FFD700;
+}
+
+/*------------------------------------------------------------------------*/
+
+@media (max-width: 1035px) {
+  .background {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  .background{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
+
+@media (max-width: 658px) {
+  .background{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    position: relative;
+    top: 160px;
+  }
+  .description{
+    position: relative;
+    top: 30px;
+  }
+}
+
+
+
