@@ -65,7 +65,7 @@ img {
   height: 100%;
 }
 
-.cha, .di, .guc, .her, .val, .mai, .ys, .chl, .pra, .dgg{
+.cha, .di, .guc, .her, .val, .mai, .ys, .chl, .pra, .dgg, .given{
   font-size: 16px;
   font-family: "forma-djr-display", sans-serif;
   font-weight: 600;
@@ -113,6 +113,10 @@ img {
 
 .dgg:hover{
   color: #FFD700;
+}
+
+.given:hover{
+  color: red;
 }
 
 /*------------------------------------------------------------------------*/
