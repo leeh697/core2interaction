@@ -57,20 +57,21 @@ font-style: normal;
 	margin-top: 17pt;
 	margin-left: 16pt;
 	font-family: "articulat-cf", sans-serif;
-font-weight: 300;
-font-style: normal;
+	font-weight: 300;
+	font-style: normal;
 	font-size: 22pt;
 }
 
 .text1-1{
 	font-family: "articulat-cf", sans-serif;
-font-weight: 300;
-font-style: normal;
+	font-weight: 300;
+	font-style: normal;
 	font-size: 15pt;
 	margin-left: 13pt;
 }
 
-.lab{color: #f9f9f9;
+.lab{
+	color: #f9f9f9;
 	margin-top: 35pt;
 	margin-left: 25pt;
 	width: 696px;
@@ -80,18 +81,18 @@ font-style: normal;
 }
 
 .text2{
-	margin-top: -129pt;
+	margin-top: -107.5pt;
 	margin-left: 16pt;
 	font-family: "articulat-cf", sans-serif;
-font-weight: 300;
-font-style: normal;
+	font-weight: 300;
+	font-style: normal;
 	font-size: 22pt;
 }
 
 .text2-1{
 	font-family: "articulat-cf", sans-serif;
-font-weight: 300;
-font-style: normal;
+	font-weight: 300;
+	font-style: normal;
 	font-size: 15pt;
 	margin-left: 13pt;
 }
