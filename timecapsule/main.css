@@ -144,5 +144,18 @@ img {
   }
 }
 
+@media (max-width: 450px) {
+  .background{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    position: relative;
+    top: 160px;
+  }
+  .description{
+    position: relative;
+    top: 60px;
+  }
+}
+
 
 
