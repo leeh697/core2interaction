@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  background-color: #F9F3EC;
+}
+
+.top{
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 25px;
+  position: fixed;
+  z-index: 1;
+}
+
+.title{
+  font-size: 30px;
+  font-family: "span", serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+.info{ 
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+ }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*------------------------------------------------------------------------*/
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 50vw;
+  height: 100vh;
+  display: block;
+  object-fit: cover;
+  object-position: cover;
+}
+
+.left{
+  width: 50vw;
+}
+
+.right{
+  width: 50vw;
+  text-align: left;
+  margin: 0 auto;
+}
+/*------------------------------------------------------------------------*/
+
+.tt{
+  font-family: "span", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 23px;
+  padding: 0px 100px 10px 120px;
+  max-width: 450px;
+}
+.tt:hover{
+  color: #2D1000;
+}
+
+.year{
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 19px;
+  padding: 0px 100px 20px 120px;
+  letter-spacing: 1px;
+  max-width: 450px;
+}
+
+
+.description{
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16.5px;
+  padding: 0px 100px 55px 120px;
+  letter-spacing: 1px;
+  max-width: 450px;
+}
+
+
+.subtitle{
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  padding: 0px 100px 15px 120px;
+  letter-spacing: 1px;
+  max-width: 450px;
+}
+
+
+.second{
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16.5px;
+  padding: 0px 100px 0px 120px;
+  letter-spacing: 1px;
+  max-width: 500px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 450px;
+}
+
+
+
+@media (max-width: 950px) {
+  .container{
+    display: block;
+    flex-direction: column;
+  }
+  img {
+    display: flex;
+    width: 100vw;
+  }
+
+  .tt, .year, .description, .subtitle, .second{
+    max-width: 800px;
+  }
+
+  .tt{
+    padding: 80px 0px 10px 0px;
+  }
+
+  .year{
+    padding: 0px 0px 20px 0px;
+  }
+
+  .description{
+    padding: 0px 0px 55px 0px;
+  }
+
+  .subtitle{
+    padding: 0px 0px 15px 0px;
+  }
+
+  .second{
+    padding: 0px 0px 70px 0px;
+  }
+}
