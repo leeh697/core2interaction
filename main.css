@@ -77,11 +77,11 @@ font-style: normal;
 	width: 696px;
 	height: 451px;
 	background-color: #3d5a5b;
-	align-content: center;
+/*	align-content: center;*/
 }
 
 .text2{
-	margin-top: -107.5pt;
+	margin-top: 17pt;
 	margin-left: 16pt;
 	font-family: "articulat-cf", sans-serif;
 	font-weight: 300;
