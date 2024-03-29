@@ -10,7 +10,7 @@ body{
   justify-content: flex-start;
   gap: 40px;
   padding: 25px;
-  position: fixed;
+  position: absolute;
   z-index: 1;
 }
 
