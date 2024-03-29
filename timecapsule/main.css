@@ -10,7 +10,7 @@ body{
   justify-content: flex-start;
   gap: 40px;
   padding: 25px;
-  position: fixed;
+/*  position: fixed;*/
   z-index: 1;
 }
 
@@ -35,7 +35,7 @@ a{
 
 .description{
   position: relative;
-  transform: translate(25.8px, 80px);
+  transform: translate(25.8px, -6px);
   font-size: 18px;
   font-family: "forma-djr-display", sans-serif;
   font-weight: 600;
@@ -55,7 +55,7 @@ a{
   grid-template-rows: repeat(4, 1fr);
   gap: 95px 3px;
   position: relative;
-  top: 130px;
+  top: 44px;
 }
 
 
