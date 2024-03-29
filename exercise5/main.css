@@ -1,0 +1,20 @@
+body{
+}
+
+/*------------------------------------------------------------------------*/
+
+.row1, .row2, .row3, .row4{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.circle{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
