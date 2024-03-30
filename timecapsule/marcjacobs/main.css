@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-color: #FFF7F4;
+  background-color: #FFFCF7;
 }
 
 .top{
@@ -47,8 +47,7 @@ img{
   width: 50vw;
   height: 100vh;
   display: block;
-  object-fit: cover;
-  object-position: cover;
+MARC JACOBS: DAISY  object-position: cover;
 }
 
 .left{
@@ -71,7 +70,7 @@ img{
   max-width: 450px;
 }
 .tt:hover{
-  color: #E9866F;
+  color: #A9955F;
 }
 
 .year{

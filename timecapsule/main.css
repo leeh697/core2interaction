@@ -65,7 +65,7 @@ img {
   height: 100%;
 }
 
-.cha, .di, .guc, .her, .val, .mai, .ys, .chl, .pra, .dgg, .given{
+.cha, .di, .guc, .her, .val, .mai, .ys, .chl, .pra, .dgg, .given, .marc{
   font-size: 16px;
   font-family: "forma-djr-display", sans-serif;
   font-weight: 600;
@@ -92,7 +92,7 @@ img {
 }
 
 .val:hover{
-  color: #FF0000;
+  color: #D34344;
 }
 
 .mai:hover{
@@ -116,6 +116,10 @@ img {
 }
 
 .given:hover{
+  color: red;
+}
+
+.marc:hover{
   color: red;
 }
 
