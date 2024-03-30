@@ -53,7 +53,7 @@ a{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 95px 3px;
+  gap: 80px 3px;
   position: relative;
   top: 44px;
 }
@@ -76,19 +76,19 @@ img {
 }
 
 .cha:hover{
-  color: #fbb139;
+  color: #D8821C;
 }
 
 .di:hover{
-  color: #4986c4;
+  color: #F399A3;
 }
 
 .guc:hover{
-  color: #008000;
+  color: #D1A390;
 }
 
 .her:hover{
-  color: #F37021;
+  color: #F68661;
 }
 
 .val:hover{
@@ -96,31 +96,31 @@ img {
 }
 
 .mai:hover{
-  color: #D3D3D3;
+  color: #853B12;
 }
 
 .ys:hover{
-  color: #FFD700;
+  color: #B0936D;
 }
 
 .chl:hover{
-  color: #FFE4C4;
+  color: #F0BB7E;
 }
 
 .pra:hover{
-  color: #008000;
+  color: #E9866F;
 }
 
 .dgg:hover{
-  color: #FFD700;
+  color: #597C95;
 }
 
 .given:hover{
-  color: red;
+  color: #AB6354;
 }
 
 .marc:hover{
-  color: red;
+  color: #A9955F;
 }
 
 /*------------------------------------------------------------------------*/
