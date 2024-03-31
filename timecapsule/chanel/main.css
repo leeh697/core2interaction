@@ -18,7 +18,7 @@ body{
 .title{
   font-size: 30px;
   font-family: "span", serif;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
 
 }
@@ -65,7 +65,7 @@ img{
 
 .tt{
   font-family: "span", serif;
-  font-weight: 600;
+  font-weight: 500;
   font-style: normal;
   font-size: 23px;
   padding: 0px 100px 10px 120px;
