@@ -1,0 +1,191 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #FEFEFE;
+}
+
+.top{
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  padding: 25px;
+/*  position: fixed;*/
+  z-index: 1;
+}
+
+.title{
+  font-family: "span", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.info{ 
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+ }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.description{
+  position: relative;
+  transform: translate(25.8px, -6px);
+  font-size: 18px;
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  max-width: 1400px;
+/*  Padding: 0px 20px 0px 0px;*/
+  margin-right: 20px;
+}
+
+/*------------------------------------------------------------------------*/
+.one{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "forma-djr-display", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 10px 35px 10px 35px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    top: 30px;
+}
+
+tr {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: center;
+  }
+
+
+span{
+  font-size: 14px;
+}
+
+.perfume{
+  padding: 5px 0px 5px 0px;
+}
+
+.hoverable1:hover{
+  background-color: #D8821C;
+  color:#F8F2EA;
+}
+
+.hoverable2:hover{
+  background-color: #E16C79;
+  color:#F8F3F9;
+}
+
+.hoverable3:hover{
+  background-color: #EA9886;
+  color:#F7F9F7;
+}
+
+.hoverable4:hover{
+  background-color: #F76F43;
+  color:#FFF7F1;
+}
+
+.hoverable5:hover{
+  background-color: #D34344;
+  color:#F4EDEE;
+}
+
+.hoverable6:hover{
+  background-color: #853B12;
+  color:#FBF6F1;
+}
+
+.hoverable7:hover{
+  background-color: #C08D4C;
+  color:#FFFAF1;
+}
+
+.hoverable8:hover{
+  background-color: #F3AB76;
+  color:#FFF7F0;
+}
+
+.hoverable9:hover{
+  background-color: #E9866F;
+  color:#FFF7F4;
+}
+
+.hoverable10:hover{
+  background-color: #527084;
+  color:#F5F9EF;
+}
+
+.hoverable11:hover{
+  background-color: #AB6354;
+  color:#FFF5EF;
+}
+
+.hoverable12:hover{
+  background-color: #A9955F;
+  color:#FCF8F0;
+}
+
+/*------------------------------------------------------------------------*/
+
+@media (max-width: 1035px) {
+  .background {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 750px) {
+  .background{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
+
+@media (max-width: 658px) {
+  .background{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    position: relative;
+    top: 160px;
+  }
+  .description{
+    position: relative;
+    top: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .background{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    position: relative;
+    top: 200px;
+  }
+  .description{
+    position: relative;
+    top: 85px;
+  }
+}
+
+.dgg{
+  padding-bottom: 60px;
+}
+
+
+
