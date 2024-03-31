@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background-color: #EFF7F5;
+  background-color: #F5F9EF;
 }
 
 .top{
@@ -71,7 +71,7 @@ img{
   max-width: 450px;
 }
 .tt:hover{
-  color: #597C95;
+  color: #527084;
 }
 
 .year{
