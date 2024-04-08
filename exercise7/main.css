@@ -1,0 +1,47 @@
+body{
+  font-family: monospace;
+  background-color: whitesmoke;
+  color: #0275ff;
+}
+
+/*------------------------------------------------------------------------*/
+.text{
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#my-range{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.range{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: -20px;
+  font-size: 18px;
+}
+
+.square-box{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main{
+  width: 550px;
+  height: 550px;
+  background-color: #0275ff;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 45px;
+  border-radius: 180px;
+}
+
