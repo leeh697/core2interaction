@@ -1,0 +1,48 @@
+body{
+  background-color: whitesmoke;
+}
+
+#dateHere{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  top: 330px;
+  width: 700px;
+  left: 380px;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  margin-top: 25px;
+}
+
+#timeHere{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  top: 330px;
+  width: 700px;
+  left: 380px;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  margin-top: 54px;
+}
+
+
+#rectangle{
+  width: 100%;
+  height: 0vh;
+  border-radius: 40px;
+  background-color: hsl(100, 90%, 80%);
+  transition: 1s linear;
+  justify-content: center;
+  align-items: center;
+ }
