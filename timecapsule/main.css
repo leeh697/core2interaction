@@ -145,11 +145,11 @@ img {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(10, 1fr);
     position: relative;
-    top: 160px;
+    top: 60px;
   }
   .description{
     position: relative;
-    top: 30px;
+    top: 10px;
   }
 }
 
@@ -158,11 +158,11 @@ img {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(10, 1fr);
     position: relative;
-    top: 200px;
+    top: 150px;
   }
   .description{
     position: relative;
-    top: 85px;
+    top: 45px;
   }
 }
 
