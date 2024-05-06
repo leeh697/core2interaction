@@ -1,0 +1,22 @@
+body{background-color:#0500FF;
+  overflow-x: hidden;
+	overflow-y: hidden;}
+
+.title{color: black;
+	text-align: center;
+	font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 185px;
+  color: white;
+	margin-top: 50pt;
+	line-height: 104%;}
+
+
+.image{
+  size: 100%;
+  margin-top: -84pt;
+  display: flex;
+  justify-content: center;
+}
