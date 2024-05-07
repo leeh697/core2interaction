@@ -17,6 +17,7 @@ function toggleRectangle(rectangleId, circleId) {
   }
 }
 
+
 /*-1. KOREA KOREA-------------------------------------------------------*/
 
 function updateKoreaDate() {
