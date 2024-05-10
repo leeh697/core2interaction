@@ -1,4 +1,5 @@
-body{background-color: #f9f9f9;}
+body{background-color: #f9f9f9;
+overflow-y: hidden;}
 
 .title1{color: #3d5a5b;
 	font-family: "articulat-cf", sans-serif;
@@ -45,10 +46,10 @@ font-style: normal;
 
 .studio{
 	color: #f9f9f9;
-	margin-top: 35pt;
+	margin-top: 30pt;
 	margin-left: 20pt;
 	width: 696px;
-	height: 451px;
+	height: 441px;
 	background-color: #3d5a5b;
 	align-items: center;
 }
@@ -72,10 +73,10 @@ font-style: normal;
 
 .lab{
 	color: #f9f9f9;
-	margin-top: 35pt;
+	margin-top: 30pt;
 	margin-left: 25pt;
 	width: 696px;
-	height: 451px;
+	height: 441px;
 	background-color: #3d5a5b;
 /*	align-content: center;*/
 }
